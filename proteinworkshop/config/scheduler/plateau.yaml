@@ -1,0 +1,17 @@
+scheduler:
+  _target_: torch.optim.lr_scheduler.ReduceLROnPlateau
+  _partial_: true
+  mode: min
+  factor: 0.6
+  patience: 5
+  verbose: True
+
+interval: "epoch"
+
+frequency: 1
+
+monitor: "val/loss"
+
+strict: True
+
+name: learning_rate

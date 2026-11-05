@@ -1,0 +1,16 @@
+scheduler:
+  _target_: proteinworkshop.utils.schedulers.InverseSquareRootLR
+  _partial_: true
+  warmup_steps: 1
+  last_epoch: -1
+
+
+interval: "step"
+
+frequency: 1
+
+monitor: "val/loss/total"
+
+strict: True
+
+name: learning_rate

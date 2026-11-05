@@ -1,0 +1,48 @@
+{
+  "format_version": 1,
+  "repositories": {
+    "e3former": {
+      "name": "E3former_data",
+      "type": "dataset",
+      "revision": "v1.0"
+    }
+  },
+  "assets": [
+    {
+      "group": "cath",
+      "repository": "e3former",
+      "filename": "datasets/cath/cath.tar.gz",
+      "archive_root": "cath",
+      "members": 19736,
+      "bytes": 463111507,
+      "sha256": "2efc89d6503f62f98d88bc00571fce15b8c2df0f10c5417b5331efc26889be44"
+    },
+    {
+      "group": "cath-af",
+      "repository": "e3former",
+      "filename": "datasets/cath/cathAF.tar.gz",
+      "archive_root": "cathAF",
+      "members": 18042,
+      "bytes": 790538916,
+      "sha256": "f872bb706472136774dd7525fb1aa8eff43b697239c599c16bad7987db308bc2"
+    },
+    {
+      "group": "ppbs",
+      "repository": "e3former",
+      "filename": "datasets/ppbs/binding_site.tar.gz",
+      "archive_root": "binding_site",
+      "members": 19748,
+      "bytes": 547503822,
+      "sha256": "50a119ea4d52174dc898c41354e1ac8122f7643d03783660e1d87f770e9543fb"
+    },
+    {
+      "group": "ppbs-af",
+      "repository": "e3former",
+      "filename": "datasets/ppbs/bindingsiteAF.tar.gz",
+      "archive_root": "bindingsiteAF",
+      "members": 17866,
+      "bytes": 738478697,
+      "sha256": "9f8c8e9daad759407e276fd4812e71a160d54c312d0a130d4847ed77efcddeb4"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+_target_: proteinworkshop.models.graph_encoders.e3former.E3FormerModel
+node_s_nums: ${resolve_feature_config_dim:${features},scalar_node_features,${task},false}
+node_v_nums: 0
+base_radius: 9.5
+energy_radius: 2.5
+deterministic_radius: false
+ssm_version: 2

@@ -1,0 +1,6 @@
+rocauc:
+  _target_: torchmetrics.AUROC
+  task: ${task.classification_type}
+  average: ${task.metric_average}
+  num_classes: ${dataset.num_classes}
+  num_labels: ${dataset.num_classes}
